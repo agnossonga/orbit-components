@@ -1503,6 +1503,13 @@
     mkdirp "^0.5.1"
     rimraf "^2.5.2"
 
+"@markusylisiurunen/md-table@^0.2.1-alpha":
+  version "0.2.1-alpha"
+  resolved "https://registry.yarnpkg.com/@markusylisiurunen/md-table/-/md-table-0.2.1-alpha.tgz#81741b79f138042aff7d91b89986ae5555806dfb"
+  integrity sha512-CNQbtxHKKBVncZTGk+i4rf9S/OMEjgY878Ld/Uj0vD+H6qpQas+IkX0TenZ9NdQkjDIrbqrQc4s+EdeEMzSnBg==
+  dependencies:
+    chalk "^2.3.2"
+
 "@mrmlnc/readdir-enhanced@^2.2.1":
   version "2.2.1"
   resolved "https://registry.yarnpkg.com/@mrmlnc/readdir-enhanced/-/readdir-enhanced-2.2.1.tgz#524af240d1a360527b730475ecfa1344aa540dde"
@@ -3946,7 +3953,7 @@ ccount@^1.0.3:
   resolved "https://registry.yarnpkg.com/ccount/-/ccount-1.0.3.tgz#f1cec43f332e2ea5a569fd46f9f5bde4e6102aff"
   integrity sha512-Jt9tIBkRc9POUof7QA/VwWd+58fKkEEfI+/t1/eOlxKM7ZhrczNzMFefge7Ai+39y1pR/pP6cI19guHy3FSLmw==
 
-chalk@2.4.2, chalk@^2.0.0, chalk@^2.0.1, chalk@^2.1.0, chalk@^2.3.0, chalk@^2.4.1, chalk@^2.4.2:
+chalk@2.4.2, chalk@^2.0.0, chalk@^2.0.1, chalk@^2.1.0, chalk@^2.3.0, chalk@^2.3.2, chalk@^2.4.1, chalk@^2.4.2:
   version "2.4.2"
   resolved "https://registry.yarnpkg.com/chalk/-/chalk-2.4.2.tgz#cd42541677a54333cf541a49108c1432b44c9424"
   integrity sha512-Mti+f9lpJNcwF4tWV8/OrTTtF1gZi+f8FqlyAdouralcFWFQWF2+NgCHShjkCb+IFBLq9buZwE1xckQU4peSuQ==
@@ -8908,6 +8915,13 @@ log-symbols@^1.0.2:
   dependencies:
     chalk "^1.0.0"
 
+log-symbols@^4.0.0:
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/log-symbols/-/log-symbols-4.0.0.tgz#69b3cc46d20f448eccdb75ea1fa733d9e821c920"
+  integrity sha512-FN8JBzLx6CzeMrB0tg6pqlGU1wCrXW+ZXGH481kfsBqer0hToTIiHdjH4Mq8xJUbvATujKCvaREGWpGUionraA==
+  dependencies:
+    chalk "^4.0.0"
+
 log-update@^2.3.0:
   version "2.3.0"
   resolved "https://registry.yarnpkg.com/log-update/-/log-update-2.3.0.tgz#88328fd7d1ce7938b29283746f0b1bc126b24708"
@@ -9486,6 +9500,21 @@ moniker@0.1.2:
   version "0.1.2"
   resolved "https://registry.yarnpkg.com/moniker/-/moniker-0.1.2.tgz#872dfba575dcea8fa04a5135b13d5f24beccc97e"
   integrity sha1-hy37pXXc6o+gSlE1sT1fJL7MyX4=
+
+monstra@^0.0.9:
+  version "0.0.9"
+  resolved "https://registry.yarnpkg.com/monstra/-/monstra-0.0.9.tgz#beccc0612fed80e31cd1297264f4dc87439ef70d"
+  integrity sha512-MJVebt4OpSxOGy3T+jr/CJNAm/KFKOKrEA9T3bN12fbOjyHgGp5G12iY+9fOVqxnvNJp7dYoGeOffMqv/owjZA==
+  dependencies:
+    "@babel/core" "^7.10.0"
+    "@babel/generator" "^7.10.0"
+    "@markusylisiurunen/md-table" "^0.2.1-alpha"
+    chalk "^4.0.0"
+    fs-extra "^9.0.0"
+    glob "^7.1.6"
+    log-symbols "^4.0.0"
+    ramda "^0.27.0"
+    yargs "^15.3.1"
 
 moo@^0.4.3:
   version "0.4.3"
